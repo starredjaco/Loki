@@ -101,46 +101,6 @@ First you need to identify a vulnerable Electron application which does not do A
 
 - [Guide for Discovering Vulnerable Electron Apps](docs/vulnhunt/electronapps.md)
 
-| Vulnerable | App Name                                              | EXE Name            | Version         | Discovery Credit                                                             | 
-|------------|-------------------------------------------------------|---------------------|-----------------|------------------------------------------------------------------------------|
-| ✅         | Microsoft Teams                                       | `Teams.exe`         | `1.7.00.13456`  | Andrew Kisliakov & [mr.d0x](https://twitter.com/@mrd0x)                      |
-| ✅         | Cursor                                                | `cursor.exe`        | `0.48.7.0`      | [John Hammond](https://x.com/_JohnHammond)                                   | 
-| ✅         | VS Code                                               | `code.exe`          |                 | [chompie1337](https://x.com/chompie1337) & [knavesec](https://x.com/knavesec)|
-| ✅         | Github Desktop                                        | `GithubDesktop.exe` | `3.4.6.0`       | [d_tranman](https://x.com/d_tranman) & [0xBoku](https://x.com/0xBoku)        |
-| ✅         | [Postman](https://www.postman.com/downloads/)         | `Postman.exe`       |                 | [clod81](https://github.com/clod81)                                          |
-| ✅         | [Obsidian](https://obsidian.md/download)              | `Obsidian.exe`      |                 | [clod81](https://github.com/clod81)                                          |
-| ✅         | Joplin                                                | `Joplin.exe`        |                 | [0xAnom4ly](https://github.com/0xAnom4ly)                                    |
-| ✅         | Discord                                               | `Discord.exe`       |                 | [clod81](https://github.com/clod81)                                          |
-| ✅         | [Windsurf](https://windsurf.com/download)             | `Windsurf.exe`      |                 | [nero22k](https://github.com/Nero22k)                                        |
-| ✅         | [Figma](https://www.figma.com/downloads/)             | `Figma.exe`      |                 | [WaterBucket](https://x.com/DharaniSanjaiy)
-| ✅         | [RingCentral](https://www.ringcentral.com/download)   | `RingCentral.exe`   |                 | [4y45u45c4](https://x.com/4y45u45c4)                                         |
-| ✅         | [阿里云盘](https://www.alipan.com/)                    | `aDrive`            | `6.8.6`  | [Adnnlnistrator](https://github.com/Adnnlnistrator)|
-| ✅         | [azuredatastudio](https://azure.microsoft.com/zh-cn/products/data-studio/)                     | `azuredatastudio.exe`            | `1.51.1`  | [Adnnlnistrator](https://github.com/Adnnlnistrator)|
-| ✅         | [atom](https://atom-editor.cc/)                    | `atom.exe`            | `1.60.0`  | [Adnnlnistrator](https://github.com/Adnnlnistrator)|
-| ✅         | [Bruno](https://www.usebruno.com)                    | `Bruno.exe`            | `2.1.0`  | Tyler Schultz |
-| ✅         | [KeeWeb](https://keeweb.info/)                        | `KeeWeb.exe`        |                 | [j0hnZ3RA](https://github.com/j0hnZ3RA)                                      |
-| ✅         | [Wordpress](https://apps.wordpress.com/pt-br/d/windows/)| `Wordpress.com.exe`|                | [j0hnZ3RA](https://github.com/j0hnZ3RA)                                      |
-| ✅         | [Arduino IDE](https://www.arduino.cc/en/software/)    | `Arduino IDE.exe`   |                 | [j0hnZ3RA](https://github.com/j0hnZ3RA)                                      |
-| ✅         | [QRLWallet](https://www.theqrl.org/)                    | `QRLWallet.exe`            | `1.8.1`  | [OnlySmrtSumX](https://www.linkedin.com/in/onlysmrtsumx/) & [tideboss](https://www.linkedin.com/in/kursad-dev/)|
-| ✅         | [DevHub](https://devhubapp.com/)                    | `DevHub.exe`            | `0.102.0`  | [ab4y98](https://github.com/Ab4y98)|
-| ✅         | [Asana](https://asana.com/)                           | `Asana.exe`           | `2.3.0`       | [syro](https://github.com/0xsyr0)                                            |
-| ✅         | [Insomnia](https://insomnia.rest/)                    | `insomnia-11.0.2.exe` | `11.0.2`      | [syro](https://github.com/0xsyr0)                                            |
-| ✅         | [Ferdium](https://ferdium.org/)                       | `Ferdium.exe`       | `7.0.1`         | [pir4cy](https://github.com/pir4cy)                                          |
-| ✅         | [Franz](https://meetfranz.com/)                       | `Franz.exe`         | `5.11.0`        | [pir4cy](https://github.com/pir4cy)                                          |
-| ✅         | [TIDAL](https://tidal.com/)                           | `TIDAL.exe`         |                 | [pir4cy](https://github.com/pir4cy)                                          |
-| ✅         | [FACEIT](https://faceit.com/)                          | `FACEIT.exe`         | `2.1.10`                | [icheernoom](https://x.com/icheernoom)                             |
-| ✅         | [Unity](https://unity.com/)                          | `Unity Hub.exe`       |                | [Sawyer](https://github.com/SawyersPresent)                                  |
-| ✅         | Docker Desktop                                        | `Docker Desktop.exe` |   `4.41.2`     |      [robinx0](https://linkedin.com/in/robinary)                             |
-| ✅         | Git Kraken                                        | `gitkraken.exe` |   `11.1.1`     |      [robinx0](https://linkedin.com/in/robinary)                                      |
-| ✅         | Hyper                                        | `hyper.exe` |   `3.4.1`     |      [nahidha5an](https://www.linkedin.com/in/a-m-nahid-hasan-b2602335/)                        |
-| ✅         | LM Studio                                        | `lmstudio.exe` |   `0.3.14`     |      [nahidha5an](https://www.linkedin.com/in/a-m-nahid-hasan-b2602335/)                |
-| ❌         | 1Password                                             | `1Password.exe`     |                 |                                                                              |
-| ❌         | Signal                                                | `Signal.exe`        |                 |                                                                              |
-| ❌         | Slack                                                 | `slack.exe`         |                 |                                                                              |
-| ❌         | Notion                                                | `Notion.exe`        |                 |                                                                              |
-
-
-
 ### Simple Instructions
 _You don't need to compile the agent when backdooring Electron apps. Just replace the contents of `{ELECTRONAPP}/resources/app/` with the Loki agent files._
 
